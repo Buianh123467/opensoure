@@ -31,3 +31,12 @@ Proxy qua nginx:
 
 <img width="1361" height="618" alt="Image" src="https://github.com/user-attachments/assets/ec1eb3a6-5630-4895-af4f-3ad4b399445e" />
 
+ Kiểm tra location /api dùng proxy_pass trỏ tới 1 (hoặc nhiều) node http_in của nodered:
+ 
+Cấu hình nodered
+<img width="1360" height="614" alt="Image" src="https://github.com/user-attachments/assets/d4a0ab74-307b-473c-a14a-d9d75c8521f8" />
+
+Kiểm tra truy cập proxy
+
+<img width="1328" height="710" alt="Image" src="https://github.com/user-attachments/assets/619667dc-9dab-4cd9-a75b-fac4c78ac26e" />
+
