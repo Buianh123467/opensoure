@@ -19,25 +19,47 @@ Tìm hiểu tập lệnh của docker và docker compose:
 
  Các tập lệnh thường dùng trong docker:
 
+
 Tải một image từ Docker Hub: docker pull nginx
+
 Chạy một container mới từ image (chạy ngầm, mở cổng 80): docker run -d -p 80:80 --name web-server nginx
+
 Liệt kê các container đang chạy: docker ps
+
 Liệt kê tất cả container (cả đang chạy và đã dừng): docker ps -a
+
 Dừng một container: docker stop web-server
+
 Xóa một container: docker rm web-server
+
 Xem danh sách các image đang có trên máy: docker images
 
-5.2. Tập lệnh docker conpose:
+
+Tập lệnh docker conpose:
+
+
 Khởi chạy các dịch vụ được định nghĩa trong file docker-compose.yml (chạy ngầm): docker compose up -d
+
 Dừng và xóa các container trong file compose: docker compose down
+
 Xem log hoạt động của các container: docker compose logs -f
+
 Khởi động lại các dịch vụ: docker compose restart
 
-5.3. Cấu hình tường lửa( UFW):
+
+Cấu hình tường lửa( UFW):
+
+
 Cho phép kết nối SSH (Cực kỳ quan trọng để không bị mất kết nối): sudo ufw allow 22/tcp
+
 Cho phép cổng 80 (Web): sudo ufw allow 80/tcp
+
 Cho phép cổng 1880 (Node-RED): sudo ufw allow 1880/tcp
+
 Cho phép cổng 9630: sudo ufw allow 9630/tcp
+
 Kích hoạt tường lửa (Chọn 'y' khi được hỏi): sudo ufw enable
+
 Kiểm tra trạng thái các cổng đã mở: sudo ufw status
+
 
