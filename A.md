@@ -8,7 +8,7 @@ Cấu hình ở Cloudflare
 
  Thay đổi Nameserver tại nhà đăng ký
 
-<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/ab2049db-6413-49d9-9b15-8bd7b4b68d0d" />
+
 
  Đăng ký thành công
 
